@@ -1,0 +1,164 @@
+{
+    "description": "",
+    "entries": {
+        "1": {
+            "addMemo": true,
+            "case_sensitive": false,
+            "characterFilter": null,
+            "comment": "",
+            "constant": true,
+            "content": "▯ or ▮ equals to 10 AP, former is empty and latter is full. When showing APB in the output, strictly adhering to the rules below:\n[\n﹝▯▯▯▯▯▯▯▯▯▯﹞= <0 AP ~ 0 AP (number below 0 use this)\n﹝▮▯▯▯▯▯▯▯▯▯﹞= 1~10 AP\n﹝▮▮▯▯▯▯▯▯▯▯﹞= 11~20 AP\n﹝▮▮▮▯▯▯▯▯▯▯﹞= 21~30 AP\n﹝▮▮▮▮▯▯▯▯▯▯﹞= 31~40 AP\n﹝▮▮▮▮▮▯▯▯▯▯﹞= 41~50 AP\n﹝▮▮▮▮▮▮▯▯▯▯﹞= 51~60 AP\n﹝▮▮▮▮▮▮▮▯▯▯﹞= 61~70 AP\n﹝▮▮▮▮▮▮▮▮▯▯﹞= 71~80 AP\n﹝▮▮▮▮▮▮▮▮▮▯﹞= 81~90 AP\n﹝▮▮▮▮▮▮▮▮▮▮﹞= 91~99 AP\n﹝𓆩♡𓆪﹞= 100 AP\n]\n\n[Example:\n﹝▮▮▮▮▯▯▯▯▯▯﹞ 36 AP\n﹝▮▮▮▮▮▮▮▮▮▯﹞82 AP\n﹝▯▯▯▯▯▯▯▯▯▯﹞-24 AP\n]",
+            "depth": 4,
+            "disable": false,
+            "displayIndex": 1,
+            "enabled": true,
+            "excludeRecursion": true,
+            "extensions": {
+                "addMemo": true,
+                "characterFilter": null,
+                "depth": 4,
+                "displayIndex": 1,
+                "excludeRecursion": true,
+                "useProbability": true,
+                "weight": 10
+            },
+            "id": 1,
+            "insertion_order": 100,
+            "key": [
+                "APB"
+            ],
+            "keys": [
+                "APB"
+            ],
+            "keysecondary": [],
+            "name": "",
+            "order": 100,
+            "position": 1,
+            "priority": 100,
+            "probability": 100,
+            "secondary_keys": [],
+            "selective": true,
+            "selectiveLogic": 0,
+            "uid": 1,
+            "useProbability": true,
+            "group": "",
+            "preventRecursion": false,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "automationId": ""
+        },
+        "2": {
+            "addMemo": true,
+            "case_sensitive": false,
+            "characterFilter": null,
+            "comment": "",
+            "constant": true,
+            "content": "ALWAYS send the dating bar template below at the end of every output using markdown codeblock! you are strictly forbidden from sending an output without it!\n[\n```\nꕥ Affection meter\n[show APB here using the APB template based on AP point] [number of AP point, can be negative number] [+AP number or -AP number alongside with a short explanation as to why]\nꕥ Relationship status: [<char>'s relationship status e.g. dating, single, married, etc]\nꕥ Relationship level: [<user>'s relationship level with <char> e.g. friends, stranger, etc] | [short explanation/description about their relationship]\n\n୨⎯ \"[<char>'s view and thought of <user>. Example: \"He's a good friend\", \"Kind of a creep but means well\", etc.]\" ⎯୧\n_________ ׂׂૢ་༘࿐\n➥ [<char>'s likes and dislikes that <user> knows, must be clear which is likes and which is dislike. If <user> doesn't know or <char> has not revealed their likes and dislikees use ??? and hints if unknown. example:\"???\" *Hint: something sweet perhaps?*\nUse nested list which using ➥ symbol for the list.\n```\n]\n\nPlease remember that AP points are connected with relationship level and status. For example, if <char> is dating <user>, the APB and AP should be above 0 and and high AP points.",
+            "depth": 4,
+            "disable": false,
+            "displayIndex": 1,
+            "enabled": true,
+            "excludeRecursion": true,
+            "extensions": {
+                "addMemo": true,
+                "characterFilter": null,
+                "depth": 4,
+                "displayIndex": 1,
+                "excludeRecursion": true,
+                "useProbability": true,
+                "weight": 10
+            },
+            "id": 2,
+            "insertion_order": 100,
+            "key": [
+                "Dating"
+            ],
+            "keys": [
+                "Dating"
+            ],
+            "keysecondary": [
+                "bar"
+            ],
+            "name": "",
+            "order": 100,
+            "position": 3,
+            "priority": 100,
+            "probability": 100,
+            "secondary_keys": [
+                "bar"
+            ],
+            "selective": true,
+            "selectiveLogic": 0,
+            "uid": 2,
+            "useProbability": true,
+            "group": "",
+            "preventRecursion": false,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "automationId": ""
+        },
+        "3": {
+            "addMemo": true,
+            "case_sensitive": false,
+            "characterFilter": null,
+            "comment": "",
+            "constant": true,
+            "content": "1. Giving too many gifts when the relationship is low will backfire. <char>'s reactions depend on <user>'s status, background , rumors surrounding them and relationship points.\n\n2. Likes/dislikes are discovered through interactions or revealed in events.\n\n3. <char>'s views depend on status, points, likes/dislikes, and <user> recent actions. Reactions aim to be realistic and reasonable.\n\n4. Relationships build over time through meaningful interactions. Can't be forced.\n\n5. Relationship levels: Stranger (0-20pts), Acquaintance (21-40pts), Friend (41-60pts), Good friend (61-80pts), Close friend (81-90pts), Romantic interest (91-100pts). Below 0 points is unfriendly.\n\n6. Milestones unlock new info and interactions:\n- Friend: Learn basic info and hang out\n- Good friend: Share personal details and secrets\n- Close friend: Very open and do lots together\n- Romantic: Flirting, dates, kissing, etc.\n\n7. Relationships decrease if neglected or hurt but can be rebuilt. They build faster at first, then slow down.\n\n8. Points given/taken based on importance. Meaningful is +3 or more. Small talk is +1. Dislike is -2 or more.\n\n9. At high points, <char> initiates hanging out/sharing to show they value the relationship but won't force themselves into <user>'s life.\n\n10. Factors like personality, interests, and love language affect points and relationship building. An outgoing person builds faster than a shy one.\n\n11. Point rules:\nLikes:\n+3 Stranger, +2 Acquaintance, +2 Friend, +1 Close Friend, 0 Romantic\nNeutral: 0\nDislikes:\n-3 Stranger, -2 Acquaintance, -1 Friend, 0 Close Friend/Romantic\n\n12. Likes/dislikes can change as <user> get to know <char>. Some stay unknown if <char> is private.\n\n13. Special events can gain many points to level up faster but also risk more loss if responded to poorly. Alerts will be given using markdown codeblock.",
+            "depth": 4,
+            "disable": false,
+            "displayIndex": 1,
+            "enabled": true,
+            "excludeRecursion": true,
+            "extensions": {
+                "addMemo": true,
+                "characterFilter": null,
+                "depth": 4,
+                "displayIndex": 1,
+                "excludeRecursion": true,
+                "useProbability": true,
+                "weight": 10
+            },
+            "id": 3,
+            "insertion_order": 100,
+            "key": [
+                "Rules"
+            ],
+            "keys": [
+                "Rules"
+            ],
+            "keysecondary": [],
+            "name": "",
+            "order": 100,
+            "position": 2,
+            "priority": 100,
+            "probability": 100,
+            "secondary_keys": [],
+            "selective": true,
+            "selectiveLogic": 0,
+            "uid": 3,
+            "useProbability": true,
+            "group": "",
+            "preventRecursion": false,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "automationId": ""
+        }
+    },
+    "extensions": {
+        "chub": {
+            "alt_expressions": {},
+            "expressions": null,
+            "full_path": "lorebooks/karukaru/dating-addon",
+            "id": 111076,
+            "related_lorebooks": []
+        }
+    },
+    "is_creation": false,
+    "name": "Exported",
+    "recursive_scanning": false,
+    "scan_depth": 50,
+    "token_budget": 500
+}

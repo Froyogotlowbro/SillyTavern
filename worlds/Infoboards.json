@@ -1,0 +1,29 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Infoboard 1",
+            "content": "• Write an informational board inside of `<info_board>` following the format, filling placeholders based on the current setting, and logically progressing based off of what occurred in the last message. Ensure that contents are always inside codeblock: \n<info_board>\n```\nPosture: [Sentence about the current appearance of {{char}}, focusing on pose, action and clothing or nude state]\nAffinity: [# {{char}}’s aff value] (Word or phrase reflecting {{char}}’s feeling for {{user}})Mood: [{{char}}’s mood]\nThought: [“{{char}}’s internal thought”]\nArousal: [% {{char}}’s arousal based on mood and stimulation {{char}} receives] (Brief description of how turned on {{char}} is)\nLocation: [{{char}}’s current location]\nTime and Date: [Current time and day in {{char}}'s world]\nSoundtrack: [An appropriate song for the character and mood of the scene, listed in Artist - Title format, with a lyric that relates to the scene.]\n```\n</info_board>",
+            "constant": true,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 0,
+            "disable": false,
+            "excludeRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "automationId": "",
+            "displayIndex": 0,
+            "preventRecursion": false
+        }
+    }
+}
